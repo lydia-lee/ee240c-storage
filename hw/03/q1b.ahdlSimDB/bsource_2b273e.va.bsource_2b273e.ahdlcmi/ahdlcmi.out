@@ -1,0 +1,91 @@
+ahdlcmicompile: Compiling ahdlcmi in q1b.ahdlSimDB//bsource_2b273e.va.bsource_2b273e.ahdlcmi/Linux-64/ for Linux-64 with optimize using gcc on Tue Oct  8 12:20:25 PDT 2019 [5.0]
+ahdlcmicompile: Generating makefile
+PATH:  /share/instsww/cadence/MMSIM171/bin:/share/instsww/cadence/MMSIM171/tools/bin/64bit:/share/instsww/cadence/MMSIM171/tools/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/share/instsww/cadence/RC142/tools/bin:/share/instsww/cadence/MMSIM171/tools/dfII/bin:/share/instsww/cadence/ASSURA41-617/tools/bin:/share/instsww/cadence/ASSURA41-617/tools/dfII/bin:/share/instsww/cadence/IC617/tools/bin:/share/instsww/cadence/IC617/tools/dfII/bin
+LD_LIBRARY_PATH:  /share/instsww/cadence/MMSIM171/tools/giganta/lib/64bit:/share/instsww/cadence/MMSIM171/tools/mdl/lib/64bit:/share/instsww/cadence/MMSIM171/tools/mmsim/lib/64bit:/share/instsww/cadence/MMSIM171/tools/tcltk-8.4.20/lib/64bit:/share/instsww/cadence/MMSIM171/tools/inca/lib/64bit:/share/instsww/cadence/MMSIM171/tools/spectre/lib/64bit:/share/instsww/cadence/MMSIM171/tools/dfII/lib/64bit:/share/instsww/cadence/MMSIM171/tools/lib/64bit:/share/instsww/cadence/MMSIM171/tools/lib
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/bin/gnumake -j16 -f GNUmakefile
+Cleaning ./obj/optimize/5.0
+rm -f -rf ./obj/optimize/5.0
+Compiling C file bsource_2b273e_func.c (optimize)
+Compiling C file bsource_2b273e_DcFuncDerLoad.c (optimize)
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /share/instsww/cadence/MMSIM171/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include -c bsource_2b273e_func.c -o obj/optimize/5.0/bsource_2b273e_func.o || rm -f -f obj/optimize/5.0/bsource_2b273e_func.o
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /share/instsww/cadence/MMSIM171/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include -c bsource_2b273e_DcFuncDerLoad.c -o obj/optimize/5.0/bsource_2b273e_DcFuncDerLoad.o || rm -f -f obj/optimize/5.0/bsource_2b273e_DcFuncDerLoad.o
+Compiling C file bsource_2b273e_DcFuncLoad.c (optimize)
+Compiling C file bsource_2b273e_TranFuncDerLoad.c (optimize)
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /share/instsww/cadence/MMSIM171/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include -c bsource_2b273e_DcFuncLoad.c -o obj/optimize/5.0/bsource_2b273e_DcFuncLoad.o || rm -f -f obj/optimize/5.0/bsource_2b273e_DcFuncLoad.o
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /share/instsww/cadence/MMSIM171/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include -c bsource_2b273e_TranFuncDerLoad.c -o obj/optimize/5.0/bsource_2b273e_TranFuncDerLoad.o || rm -f -f obj/optimize/5.0/bsource_2b273e_TranFuncDerLoad.o
+Compiling C file bsource_2b273e_TranFuncDerSimLoad.c (optimize)
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /share/instsww/cadence/MMSIM171/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include -c bsource_2b273e_TranFuncDerSimLoad.c -o obj/optimize/5.0/bsource_2b273e_TranFuncDerSimLoad.o || rm -f -f obj/optimize/5.0/bsource_2b273e_TranFuncDerSimLoad.o
+Compiling C file bsource_2b273e_TranFuncLoad.c (optimize)
+Compiling C file bsource_2b273e_TranFuncSimLoad.c (optimize)
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /share/instsww/cadence/MMSIM171/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include -c bsource_2b273e_TranFuncLoad.c -o obj/optimize/5.0/bsource_2b273e_TranFuncLoad.o || rm -f -f obj/optimize/5.0/bsource_2b273e_TranFuncLoad.o
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /share/instsww/cadence/MMSIM171/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include -c bsource_2b273e_TranFuncSimLoad.c -o obj/optimize/5.0/bsource_2b273e_TranFuncSimLoad.o || rm -f -f obj/optimize/5.0/bsource_2b273e_TranFuncSimLoad.o
+Compiling C file bsource_2b273e_OpPointCalc.c (optimize)
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /share/instsww/cadence/MMSIM171/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include -c bsource_2b273e_OpPointCalc.c -o obj/optimize/5.0/bsource_2b273e_OpPointCalc.o || rm -f -f obj/optimize/5.0/bsource_2b273e_OpPointCalc.o
+Compiling C file bsource_2b273e_cmi_c.c (optimize)
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /share/instsww/cadence/MMSIM171/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include -I/share/instsww/cadence/MMSIM171/tools.lnx86/cmi/include -c bsource_2b273e_cmi_c.c -o obj/optimize/5.0/bsource_2b273e_cmi_c.o || rm -f -f obj/optimize/5.0/bsource_2b273e_cmi_c.o
+<stdin>: In function 'bsource_2b273e_pDC_Load':
+<stdin>:826:976: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [enabled by default]
+In file included from <stdin>:24:0:
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2685:33: note: expected 'void *' but argument is of type 'long int'
+ ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+                                 ^
+<stdin>: In function 'bsource_2b273e_pCompare':
+<stdin>:865:1205: warning: assignment makes integer from pointer without a cast [enabled by default]
+<stdin>:865:894: warning: passing argument 1 of 'memcpy' makes pointer from integer without a cast [enabled by default]
+In file included from /share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5:0,
+                 from /share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:83,
+                 from <stdin>:24:
+/usr/include/string.h:42:14: note: expected 'void * __restrict__' but argument is of type 'long int'
+ extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+              ^
+<stdin>:865:894: warning: passing argument 2 of 'memcpy' makes pointer from integer without a cast [enabled by default]
+In file included from /share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5:0,
+                 from /share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:83,
+                 from <stdin>:24:
+/usr/include/string.h:42:14: note: expected 'const void * __restrict__' but argument is of type 'long int'
+ extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+              ^
+<stdin>:865:1447: warning: assignment makes integer from pointer without a cast [enabled by default]
+<stdin>: In function 'bsource_2b273e_pGetMatrixPointers':
+<stdin>:871:2810: warning: assignment makes integer from pointer without a cast [enabled by default]
+<stdin>: In function 'bsource_2b273e_pAnalTranLoad':
+<stdin>:907:2394: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [enabled by default]
+In file included from <stdin>:24:0:
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2685:33: note: expected 'void *' but argument is of type 'long int'
+ ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+                                 ^
+<stdin>: In function 'bsource_2b273e_pNoiseBindSrcs':
+<stdin>:933:506: warning: passing argument 3 of 'aslDevNoiseBindStartModel' discards 'const' qualifier from pointer target type [enabled by default]
+In file included from <stdin>:24:0:
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1093:33: note: expected 'char *' but argument is of type 'devModelID'
+ ASL_FUNC_DECL_START extern void aslDevNoiseBindStartModel( struct noiseData *, devInstKnot *, char *, char * );
+                                 ^
+<stdin>: In function 'bsource_2b273e_pNoiseNameSrcs':
+<stdin>:936:506: warning: passing argument 3 of 'aslDevNoiseNameModel' discards 'const' qualifier from pointer target type [enabled by default]
+In file included from <stdin>:24:0:
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1101:40: note: expected 'char *' but argument is of type 'devModelID'
+ ASL_FUNC_DECL_START extern msgSeverity aslDevNoiseNameModel( struct noiseData *, devInstKnot *, char *, char * );
+                                        ^
+<stdin>: In function 'bsource_2b273e_pSaveRestart':
+<stdin>:942:545: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [enabled by default]
+In file included from <stdin>:24:0:
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1218:39: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+                                       ^
+<stdin>: In function 'bsource_2b273e_pSaveRestartInst':
+<stdin>:945:547: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [enabled by default]
+In file included from <stdin>:24:0:
+/share/instsww/cadence/MMSIM171/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1218:39: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+                                       ^
+rm -f -rf bsource_2b273e_TranFuncSimLoad.c
+rm -f -rf bsource_2b273e_DcFuncLoad.c
+rm -f -rf bsource_2b273e_TranFuncLoad.c
+rm -f -rf bsource_2b273e_OpPointCalc.c
+rm -f -rf bsource_2b273e_TranFuncDerSimLoad.c
+rm -f -rf bsource_2b273e_DcFuncDerLoad.c
+rm -f -rf bsource_2b273e_TranFuncDerLoad.c
+rm -f -rf bsource_2b273e_func.c
+rm -f -rf bsource_2b273e_cmi_c.c
+/share/instsww/cadence/MMSIM171/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc -shared -O3 -m64 -fPIC -o obj/optimize/5.0/libahdlcmi_bsource_2b273e.so ./obj/optimize/5.0/bsource_2b273e_func.o ./obj/optimize/5.0/bsource_2b273e_DcFuncDerLoad.o ./obj/optimize/5.0/bsource_2b273e_DcFuncLoad.o ./obj/optimize/5.0/bsource_2b273e_TranFuncDerLoad.o ./obj/optimize/5.0/bsource_2b273e_TranFuncDerSimLoad.o ./obj/optimize/5.0/bsource_2b273e_TranFuncLoad.o ./obj/optimize/5.0/bsource_2b273e_TranFuncSimLoad.o ./obj/optimize/5.0/bsource_2b273e_OpPointCalc.o ./obj/optimize/5.0/bsource_2b273e_cmi_c.o  -Wl,-rpath,/usr/lib -Wl,-rpath,/lib -s 
+rm -f -f ./obj/optimize/5.0/bsource_2b273e_func.o ./obj/optimize/5.0/bsource_2b273e_DcFuncDerLoad.o ./obj/optimize/5.0/bsource_2b273e_DcFuncLoad.o ./obj/optimize/5.0/bsource_2b273e_TranFuncDerLoad.o ./obj/optimize/5.0/bsource_2b273e_TranFuncDerSimLoad.o ./obj/optimize/5.0/bsource_2b273e_TranFuncLoad.o ./obj/optimize/5.0/bsource_2b273e_TranFuncSimLoad.o ./obj/optimize/5.0/bsource_2b273e_OpPointCalc.o ./obj/optimize/5.0/bsource_2b273e_cmi_c.o 

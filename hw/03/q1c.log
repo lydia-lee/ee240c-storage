@@ -1,0 +1,422 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 15.1.0.803.isr18 64bit -- 21 Jun 2017
+Copyright (C) 1989-2017 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: cs199-and   Host: eda-1.EECS.Berkeley.EDU   HostID: 2080F786   PID: 19729
+Memory  available: 39.2545 GB  physical: 50.6362 GB
+Linux   : CentOS Linux release 7.7.1908 (Core)
+CPU Type: Intel(R) Xeon(R) CPU           X5550  @ 2.67GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [1600.0] (  8 ),  1 [1600.0] (  9 ),  2 [1600.0] ( 10 )
+                 3 [1733.0] ( 11 )
+        1:       4 [1600.0] ( 12 ),  5 [1733.0] ( 13 ),  6 [1600.0] ( 14 )
+                 7 [1600.0] ( 15 )
+        
+System load averages (1min, 5min, 15min) : 3.0 %, 3.2 %, 3.2 %
+Hyperthreading is enabled
+
+
+Simulating `q1c.scs' on eda-1.EECS.Berkeley.EDU at 2:40:05 PM, Wed Oct 16, 2019 (process id: 19729).
+Current working directory: /home/cc/cs199/fa13/class/cs199-and/ee240c/hw/03
+Environment variable:
+    SPECTRE_DEFAULTS=-E
+Command line:
+    /share/instsww/cadence/MMSIM151/tools/bin/spectre -64 q1c.scs
+
+Loading /share/instsww/cadence/MMSIM151/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /share/instsww/cadence/MMSIM151/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /share/instsww/cadence/MMSIM151/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /share/instsww/cadence/MMSIM151/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /share/instsww/cadence/MMSIM151/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/cc/cs199/fa13/class/cs199-and/ee240c/hw/03/q1c.scs
+q1c.scs:30:0: error: invalid preprocessing directive #--
+ # --- YOUR SIMULATION STATEMENT BEGINS HERE ---
+ ^
+q1c.scs:31:0: error: invalid preprocessing directive #dc
+ # dc dc param=VIN_DC oppoint=screen start=0 stop=VDD
+ ^
+q1c.scs:32:0: error: invalid preprocessing directive #--
+ # --- YOUR SIMULATION STATEMENT ENDS HERE ---
+ ^
+q1c.scs:34:0: error: invalid preprocessing directive ##
+ ## --- BEGIN UNCOMMENT FOR PART D - OPTION 1 ---
+ ^
+q1c.scs:35:0: error: invalid preprocessing directive #tran_single
+ # tran_single tran stop=TTRAN errpreset=conservative skipstart=0 strobeperiod=TSAMPLE
+ ^
+q1c.scs:36:0: error: invalid preprocessing directive ##
+ ## --- END UNCOMMENT FOR DEBUG D - OPTION 1 ---
+ ^
+q1c.scs:38:0: error: invalid preprocessing directive ##
+ ## --- BEGIN UNCOMMENT FOR PART D - OPTION 2 ---
+ ^
+q1c.scs:42:0: error: invalid preprocessing directive ##
+ ## --- END UNCOMMENT FOR PART D - OPTION 2---
+ ^
+Reading link:  /share/instsww/cadence/MMSIM151
+Reading file:  /share/instsww/cadence/MMSIM.15.10.803/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /share/instsww/cadence/MMSIM.15.10.803/tools.lnx86/spectre/etc/configs/mapsubckt.cfg
+Reading file:  /usr/include/stdc-predef.h
+Reading file:  /share/instsww/cadence/GPDK_PKG/gpdk045_v_5_0/models/spectre/gpdk045_mos.scs
+Time for NDB Parsing: CPU = 452.263 ms, elapsed = 602.942 ms.
+Time accumulated: CPU = 490.139 ms, elapsed = 602.95 ms.
+Peak resident memory used = 47.6 Mbytes.
+
+
+The CPU load for active processors is :
+        Spectre  0 (1.7 %)       1 (1.7 %)       3 (15.3 %)      4 (3.3 %)
+                 5 (5.0 %)       6 (3.3 %)       7 (1.7 %)       8 (5.1 %)
+                 9 (44.3 %)     12 (5.0 %)      13 (6.7 %)      14 (1.7 %)
+                15 (76.7 %)     
+        Other   
+Reading link:  /share/instsww/cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /share/instsww/cadence/MMSIM.15.10.803/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading link:  /share/instsww/cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /share/instsww/cadence/MMSIM.15.10.803/tools.lnx86/spectre/etc/ahdl/constants.vams
+Existing shared object for module bsource_08102a is up to date.
+Installed compiled interface for bsource_08102a.
+Time for Elaboration: CPU = 28.315 ms, elapsed = 39.706 ms.
+Time accumulated: CPU = 518.728 ms, elapsed = 642.963 ms.
+Peak resident memory used = 55.1 Mbytes.
+
+Time for EDB Visiting: CPU = 752 us, elapsed = 751.972 us.
+Time accumulated: CPU = 519.744 ms, elapsed = 644.011 ms.
+Peak resident memory used = 55.7 Mbytes.
+
+
+Global user options:
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 5
+              bsim4 2     
+     bsource_08102a 2     
+          capacitor 1     
+            vsource 2     
+
+Analysis and control statement inventory:
+              sweep 1     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+Time for parsing: CPU = 2.892 ms, elapsed = 7.39813 ms.
+Time accumulated: CPU = 522.876 ms, elapsed = 651.686 ms.
+Peak resident memory used = 56.9 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+*************************************************
+Sweep Analysis `sweep': NUM_PERIODS = (511 -> 63)
+*************************************************
+
+Opening the PSF file q1c.raw/sweep_tran.sweep ...
+
+++++++++++++++++++++++++++++++
+sweep: NUM_PERIODS = 511 (0 %)
+++++++++++++++++++++++++++++++
+Time for sweep itNum=0: CPU = 1.13 ms, elapsed = 2.52891 ms.
+Time accumulated: CPU = 524.277 ms, elapsed = 654.509 ms.
+Peak resident memory used = 57.3 Mbytes.
+
+
+**************************************************************
+Transient Analysis `sweep-000_tran': time = (0 s -> 2.0479 ms)
+**************************************************************
+DC simulation time: CPU = 575 us, elapsed = 575.066 us.
+
+Notice from spectre at NUM_PERIODS = 511 during transient analysis `sweep-000_tran', during Sweep analysis `sweep'.
+    No outputs were found. Loosening output filter criterion to `lvlpub'.
+
+
+Opening the PSF file q1c.raw/sweep-000_tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 2.0479 ms
+    step = 2.0479 us
+    maxstep = 20.479 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   42      (current)
+                 save   31      (voltage)
+                 others 126     
+
+......9......8......7......6......5......4......3......2......1......0
+Number of accepted tran steps =             20481
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (10.3 %)      1 (1.8 %)       3 (4.2 %)       4 (26.3 %)
+                 5 (2.0 %)       6 (3.5 %)       8 (4.9 %)       9 (18.3 %)
+                10 (8.7 %)      11 (1.8 %)      12 (4.6 %)      13 (7.3 %)
+                14 (1.3 %)      15 (62.8 %)     
+        Other   
+Initial condition solution time: CPU = 637 us, elapsed = 647.068 us.
+Intrinsic tran analysis time:    CPU = 3.84731 s, elapsed = 3.84924 s.
+Total time required for tran analysis `sweep-000_tran': CPU = 3.85239 s, elapsed = 3.87132 s.
+Time accumulated: CPU = 4.3916 s, elapsed = 4.81944 s.
+Peak resident memory used = 59.9 Mbytes.
+
+
+++++++++++++++++++++++++++++++++++++
+sweep: NUM_PERIODS = 255 (33.3333 %)
+++++++++++++++++++++++++++++++++++++
+Time for sweep itNum=1: CPU = 2.137 ms, elapsed = 2.15197 ms.
+Time accumulated: CPU = 4.39394 s, elapsed = 4.82183 s.
+Peak resident memory used = 60 Mbytes.
+
+
+**************************************************************
+Transient Analysis `sweep-001_tran': time = (0 s -> 2.0479 ms)
+**************************************************************
+DC simulation time: CPU = 391 us, elapsed = 391.96 us.
+
+Notice from spectre during transient analysis `sweep-001_tran', during Sweep analysis `sweep'.
+    No outputs were found. Loosening output filter criterion to `lvlpub'.
+
+
+Opening the PSF file q1c.raw/sweep-001_tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 2.0479 ms
+    step = 2.0479 us
+    maxstep = 20.479 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   42      (current)
+                 save   31      (voltage)
+                 others 126     
+
+......9......8......7......6......5......4......3......2......1......0
+Number of accepted tran steps =             20480
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (8.0 %)       1 (2.4 %)       2 (2.1 %)       3 (3.0 %)
+                 4 (57.8 %)      5 (1.6 %)       6 (2.0 %)       7 (1.3 %)
+                 8 (5.4 %)       9 (15.7 %)     10 (12.9 %)     11 (5.5 %)
+                12 (2.4 %)      13 (4.1 %)      14 (5.1 %)      15 (33.2 %)
+        Other   
+Initial condition solution time: CPU = 449 us, elapsed = 458.956 us.
+Intrinsic tran analysis time:    CPU = 3.7393 s, elapsed = 3.74131 s.
+Total time required for tran analysis `sweep-001_tran': CPU = 3.74306 s, elapsed = 3.76382 s.
+Time accumulated: CPU = 8.15118 s, elapsed = 8.87813 s.
+Peak resident memory used = 60 Mbytes.
+
+
+++++++++++++++++++++++++++++++++++++
+sweep: NUM_PERIODS = 127 (66.6667 %)
+++++++++++++++++++++++++++++++++++++
+Time for sweep itNum=2: CPU = 2.114 ms, elapsed = 2.12908 ms.
+Time accumulated: CPU = 8.1535 s, elapsed = 8.88049 s.
+Peak resident memory used = 60 Mbytes.
+
+
+**************************************************************
+Transient Analysis `sweep-002_tran': time = (0 s -> 2.0479 ms)
+**************************************************************
+DC simulation time: CPU = 381 us, elapsed = 382.185 us.
+
+Notice from spectre during transient analysis `sweep-002_tran', during Sweep analysis `sweep'.
+    No outputs were found. Loosening output filter criterion to `lvlpub'.
+
+
+Opening the PSF file q1c.raw/sweep-002_tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 2.0479 ms
+    step = 2.0479 us
+    maxstep = 20.479 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   42      (current)
+                 save   31      (voltage)
+                 others 126     
+
+......9......8......7......6......5......4......3......2......1......0
+Number of accepted tran steps =             20479
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (6.9 %)       1 (2.4 %)       2 (2.9 %)       3 (3.1 %)
+                 4 (69.0 %)      5 (1.3 %)       6 (1.4 %)       8 (6.9 %)
+                 9 (16.8 %)     10 (14.4 %)     11 (4.5 %)      12 (1.7 %)
+                13 (2.8 %)      14 (4.7 %)      15 (23.2 %)     
+        Other   
+Initial condition solution time: CPU = 436 us, elapsed = 445.127 us.
+Intrinsic tran analysis time:    CPU = 3.75195 s, elapsed = 3.75407 s.
+Total time required for tran analysis `sweep-002_tran': CPU = 3.75555 s, elapsed = 3.7756 s.
+Time accumulated: CPU = 11.9223 s, elapsed = 12.9483 s.
+Peak resident memory used = 60.1 Mbytes.
+
+
++++++++++++++++++++++++++++++++
+sweep: NUM_PERIODS = 63 (100 %)
++++++++++++++++++++++++++++++++
+Time for sweep itNum=3: CPU = 1.167 ms, elapsed = 1.19114 ms.
+Time accumulated: CPU = 11.9237 s, elapsed = 12.9498 s.
+Peak resident memory used = 60.1 Mbytes.
+
+
+**************************************************************
+Transient Analysis `sweep-003_tran': time = (0 s -> 2.0479 ms)
+**************************************************************
+DC simulation time: CPU = 342 us, elapsed = 343.084 us.
+
+Notice from spectre during transient analysis `sweep-003_tran', during Sweep analysis `sweep'.
+    No outputs were found. Loosening output filter criterion to `lvlpub'.
+
+
+Opening the PSF file q1c.raw/sweep-003_tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 2.0479 ms
+    step = 2.0479 us
+    maxstep = 20.479 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   42      (current)
+                 save   31      (voltage)
+                 others 126     
+
+......9......8......7......6......5......4......3......2......1......0
+Number of accepted tran steps =             20479
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (6.1 %)       1 (2.3 %)       2 (2.3 %)       3 (3.1 %)
+                 4 (52.5 %)      5 (1.5 %)       6 (23.6 %)      7 (1.1 %)
+                 8 (7.7 %)       9 (16.7 %)     10 (13.3 %)     11 (3.9 %)
+                12 (1.3 %)      13 (3.7 %)      14 (3.9 %)      15 (17.6 %)
+        Other   
+Initial condition solution time: CPU = 396 us, elapsed = 406.027 us.
+Intrinsic tran analysis time:    CPU = 3.7642 s, elapsed = 3.76597 s.
+Total time required for tran analysis `sweep-003_tran': CPU = 3.76824 s, elapsed = 3.78774 s.
+Time accumulated: CPU = 15.7045 s, elapsed = 17.0303 s.
+Peak resident memory used = 60.1 Mbytes.
+
+Total time required for sweep analysis `sweep': CPU = 15.1817 s, elapsed = 16.38 s.
+Time accumulated: CPU = 15.7071 s, elapsed = 17.0343 s.
+Peak resident memory used = 60.1 Mbytes.
+
+
+Aggregate audit (2:40:22 PM, Wed Oct 16, 2019):
+Time used: CPU = 15.7 s, elapsed = 17 s, util. = 92.2%.
+Time spent in licensing: elapsed = 51.2 ms.
+Peak memory used = 60.5 Mbytes.
+Simulation started at: 2:40:05 PM, Wed Oct 16, 2019, ended at: 2:40:22 PM, Wed Oct 16, 2019, with elapsed time (wall clock): 17 s.
+spectre completes with 0 errors, 0 warnings, and 4 notices.

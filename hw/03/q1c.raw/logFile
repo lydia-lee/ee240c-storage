@@ -1,0 +1,87 @@
+HEADER
+"PSFversion" "1.00"
+"Log Generator" "drlLog rev. 1.0"
+"Log Time Stamp" "Wed Oct 16 14:40:06 2019"
+"simulator" "spectre"
+"version" "15.1.0.803.isr18"
+"date" "2:40:06 PM, Wed Oct 16, 2019"
+"design" "// switch simulation"
+"signalNameType" "spectre"
+"simMode" "Spectre"
+"measdgt" 0
+"ingold" 2
+"sst2usecolon" 0
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING *
+)
+VALUE
+"sweep_tran-sweep" "analysisInst" (
+"sweep"
+"sweep_tran.sweep"
+"PSF"
+""
+("NUM_PERIODS")
+"Sweep parent"
+) PROP(
+"sweep_tree_type" "sweepNode"
+)
+
+"sweep-000_tran-tran" "analysisInst" (
+"tran"
+"sweep-000_tran.tran.tran"
+"PSF"
+"sweep_tran-sweep"
+("time")
+"Transient Analysis `sweep-000_tran': time = (0 s -> 2.0479 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"NUM_PERIODS" 511.000
+)
+
+"sweep-001_tran-tran" "analysisInst" (
+"tran"
+"sweep-001_tran.tran.tran"
+"PSF"
+"sweep_tran-sweep"
+("time")
+"Transient Analysis `sweep-001_tran': time = (0 s -> 2.0479 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"NUM_PERIODS" 255.000
+)
+
+"sweep-002_tran-tran" "analysisInst" (
+"tran"
+"sweep-002_tran.tran.tran"
+"PSF"
+"sweep_tran-sweep"
+("time")
+"Transient Analysis `sweep-002_tran': time = (0 s -> 2.0479 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"NUM_PERIODS" 127.000
+)
+
+"sweep-003_tran-tran" "analysisInst" (
+"tran"
+"sweep-003_tran.tran.tran"
+"PSF"
+"sweep_tran-sweep"
+("time")
+"Transient Analysis `sweep-003_tran': time = (0 s -> 2.0479 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"NUM_PERIODS" 63.0000
+)
+
+END
