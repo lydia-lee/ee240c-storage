@@ -1,0 +1,6 @@
+# base libraries
+# INCLUDE cds.lib.core
+INCLUDE /share/instsww/cadence/GPDK_PKG/gpdk045_v_5_0/cds.lib
+
+# personal libraries
+DEFINE ee240c /home/cc/cs199/fa13/class/cs199-and/ee240c/cadence/ee240c

@@ -1,0 +1,86 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = ee240c
+	Cell         = q1b
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = ee240c:q1b:1_spectre_state1_Interactive.0
+	Results DB   = /home/cc/cs199/fa13/class/cs199-and/ee240c/cadence/ee240c/q1b/adexl/results/data/Interactive.0.rdb
+	Results Dir  = /home/cc/cs199/fa13/class/cs199-and/simulation/ee240c/q1b/adexl/results/data/Interactive.0/1/ee240c:q1b:1
+	Results Loc  = /home/cc/cs199/fa13/class/cs199-and/simulation/ee240c/q1b/adexl/results/data
+	Project Dir  = /home/cc/cs199/fa13/class/cs199-and/simulation
+	Setup DB loc = /home/cc/cs199/fa13/class/cs199-and/ee240c/cadence/ee240c/q1b/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [ ee240c:q1b:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/cc/cs199/fa13/class/cs199-and/simulation/ee240c/q1b/adexl/results/data/Interactive.0/1/ee240c:q1b:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/cc/cs199/fa13/class/cs199-and/simulation/ee240c/q1b/adexl/results/data/Interactive.0/1/ee240c:q1b:1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Begin Incremental Netlisting Oct  8 12:40:35 2019
+End netlisting Oct  8 12:40:35 2019
+
+Netlisting Statistics:
+	Number of components:    1
+
+	Elapsed time:          1.0s (1.00/s)
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ ee240c:q1b:1 ] for Point
+          ID (0 1).
+
+Delete psf data in /home/cc/cs199/fa13/class/cs199-and/simulation/ee240c/q1b/adexl/results/data/Interactive.0/1/ee240c:q1b:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (0 1) on testbench [ ee240c:q1b:1
+          ].
+
+
+
+
+

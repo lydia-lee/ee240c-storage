@@ -1,0 +1,88 @@
+\# Program start time:     UTC 2019.10.08 19:39:05.415
+\# Local time: PDT (UTC-07:00) 2019.10.08 12:39:05.415
+\o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 12/16/2018 07:36 (sjfhw317) $
+\o Hierarchy:		/share/instsww/cadence/IC.06.17.823/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.7-64b.500.23  (64-bit addresses)
+\# Command line:	/share/instsww/cadence/IC617/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso16063 -mpshost eda-1.EECS.Berkeley.EDU -davinciService DaVinciService_16063_1570563269 -log /home/cc/cs199/fa13/class/cs199-and/ee240c/cadence/logs_cs199-and/logs0/Job1.log -licenseLockFileName /home/cc/cs199/fa13/class/cs199-and/ee240c/cadence/.tmp_cs199-and/.eda-1.EECS.Berkeley.EDU_16063 -nograph -nostdin -axlChildIdFlag 1
+\# Host name (type):	eda-1.EECS.Berkeley.EDU (x86_64)
+\# Operating system:	Linux 3.10.0-1062.1.1.el7.x86_64 #1 SMP Fri Sep 13 22:55:44 UTC 2019
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:95 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 12940)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        478 MB
+\# Available memory:	     21,753 MB
+\# System memory:	     56,482 MB
+\# Maximum memory size:	     56,079 MB
+\# Max mem available:	     21,828 MB
+\# Initial memory used:	         75 MB
+\#        process size:	      1,066 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 16.00/16.00
+\# Qt version:		4.8.5
+\# Window Manager:	other
+\# User Name:		cs199-and
+\o Working Directory:	eda-1.EECS.Berkeley.EDU:/home/cc/cs199/fa13/class/cs199-and/ee240c/cadence
+\# Process Id:		13082
+\o 
+\o COPYRIGHT (C) 1992-2018  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2018  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o *INFO* (icLic-303) virtuoso: PID=13082, Child Mode is true, ICPR Mode is true, Registration Timeout is 180 seconds, Communication Timeout is 180 seconds.
+\# Memory report: using         197 MB, process size 1,310 MB at UTC 2019.10.08 19:39:09.289
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\o Loading pe.cxt 
+\a _treeSetOpcGUI(t)
+\r t
+\# Available memory:         21,715 MB at UTC 2019.10.08 19:39:16.162
+\# Memory report: Maximum memory size now 21,914 MB at UTC 2019.10.08 19:39:16.162
+\# Thread usage report: 17 active threads, active load 1.00 at UTC 2019.10.08 19:39:16.163
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
+\o Loading simui.cxt 
+\# Memory report: on exit            204 MB, process size 1,317 MB at UTC 2019.10.08 19:40:48.544
+\# Memory report: peak usage         204 MB, process size 1,317 MB

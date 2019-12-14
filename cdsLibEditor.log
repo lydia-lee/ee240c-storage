@@ -1,0 +1,15 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.7 - CAT35 10/30/2018 21:09 (sjfnl050) $
+\o Sub version:		sub-version  s231 
+\o Arguments:		-cdslib /home/cc/cs199/fa13/class/cs199-and/ee240c/cadence/cds.lib -mpssession virtuoso16063 -mpshost eda-1.EECS.Berkeley.EDU 
+\o Working Directory:	eda-1.EECS.Berkeley.EDU:/home/cc/cs199/fa13/class/cs199-and/ee240c/cadence
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.8.5
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrResizeWindow(cdsLibEditor list(0 55 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)
